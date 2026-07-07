@@ -1,0 +1,57 @@
+{
+  "name": "@zoxon/axiom",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Portable design-system foundation: CSS tokens, rules, and agent skills.",
+  "keywords": [
+    "agent-skills",
+    "css",
+    "design-system",
+    "tokens"
+  ],
+  "author": "Konstantin Velichko",
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.0",
+  "sideEffects": [
+    "./tokens.css",
+    "./src/tokens/*.css"
+  ],
+  "exports": {
+    ".": "./tokens.css",
+    "./tokens.css": "./tokens.css",
+    "./src/tokens/*": "./src/tokens/*",
+    "./skills/design-tokens": "./skills/design-tokens/SKILL.md"
+  },
+  "bin": {
+    "axiom-skill": "./bin/axiom-skill.js"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "bin",
+    "examples",
+    "skills",
+    "src",
+    "tokens.css"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoxon/axiom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zoxon/axiom/issues"
+  },
+  "homepage": "https://github.com/zoxon/axiom#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.4"
+  }
+}
