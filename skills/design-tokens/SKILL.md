@@ -1,6 +1,6 @@
 ---
 name: design-tokens
-description: Design token system engineer for CSS custom properties. ALWAYS use this skill when user mentions any of: design tokens, tokens, color tokens, semantic tokens, extend tokens, refactor tokens, typography tokens, spacing tokens, wants to modify token files, asks about CSS variables in a design context, or asks whether a token exists or can be used. Use this skill proactively — if the user is working with any UI styling and mentions colors, typography, spacing, surfaces, or interactive states, offer to use this skill. Don't wait for explicit design-system keywords.
+description: "Design token system engineer for CSS custom properties. ALWAYS use this skill when user mentions any of: design tokens, tokens, color tokens, semantic tokens, extend tokens, refactor tokens, typography tokens, spacing tokens, wants to modify token files, asks about CSS variables in a design context, or asks whether a token exists or can be used. Use this skill proactively — if the user is working with any UI styling and mentions colors, typography, spacing, surfaces, or interactive states, offer to use this skill. Don't wait for explicit design-system keywords."
 ---
 
 # Design Tokens System Engineer
