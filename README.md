@@ -1,4 +1,7 @@
-# Axiom
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="brand/readme-header-dark.svg">
+  <img src="brand/readme-header-light.svg" width="520" alt="Axiom: portable design tokens and rules for design systems and agents">
+</picture>
 
 Axiom is a portable foundation for design systems: CSS tokens, design rules, and agent skills. It is universal, can be used independently from Lui, and may later become a separate package. It has no JavaScript runtime and no framework dependency.
 
