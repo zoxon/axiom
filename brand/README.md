@@ -11,6 +11,8 @@ Use `guidelines.md` for the rules. Use this file to find the files and to unders
 | `png/` | PNG exports: avatar 512, transparent symbol in 16 to 1024 px. |
 | `favicon.ico` | Transparent icon with 16, 32 and 48 px. |
 | `readme-header-light.svg`, `readme-header-dark.svg` | The README header, one file for each GitHub theme. |
+| `social-preview.png`, `social-preview.svg` | The GitHub social preview, 1280 x 640 px. The SVG is the source. Upload the PNG by hand. |
+| `social_preview.py` | Builds the social preview. It needs Python 3 and Chrome. |
 | `guidelines.md` | Usage rules. |
 | `preview.html` | The logo in real contexts. Open it in a browser. |
 
@@ -24,6 +26,10 @@ Use `guidelines.md` for the rules. Use this file to find the files and to unders
 ```
 
 GitHub removes style attributes from README HTML, so the header is an image. An SVG image keeps its own styles.
+
+## Social preview and avatar
+
+GitHub does not read these from git. Upload them by hand: Settings, General, Social preview (`social-preview.png`). Upload `png/avatar-512.png` as the avatar of the account or organization.
 
 ## Decisions (2026-11-26)
 
