@@ -8,7 +8,7 @@ OUT = Path(__file__).parent
 f = lambda n: f'{n:.1f}'.rstrip('0').rstrip('.')
 
 B, R, L = (96, 30), (218, 216), (30, 216)       # cap corner, right foot, left foot
-W_MAIN, W_BRANCH, BASE, NOTCH_Y = 38, 18, 196, 120
+W_MAIN, W_BRANCH, BASE, NOTCH_Y = 38, 28, 188, 120   # the branch and the floor are 28 (they were 18 and 20): the lines match the family of logos
 dx, dy = R[0] - B[0], R[1] - B[1]
 ln = math.hypot(dx, dy)
 d = (dx / ln, dy / ln)

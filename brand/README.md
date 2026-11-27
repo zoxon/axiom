@@ -31,6 +31,12 @@ GitHub removes style attributes from README HTML, so the header is an image. An 
 
 GitHub does not read these from git. Upload them by hand: Settings, General, Social preview (`social-preview.png`). Upload `png/avatar-512.png` as the avatar of the account or organization.
 
+## Update (2026-11-27): line weight
+
+A check of the line weight against the other zoxon logos showed that the lines of the delta were too thin (11 percent of the mark box, against about 20 percent for the others).
+The thin branch and the floor are 28 units now (they were 18 and 20). The thick stroke is the same (38). The construction and the silhouette are the same.
+All files are rebuilt with the new path. `scripts/build_concepts_11.py` holds the values.
+
 ## Decisions (2026-11-26)
 
 **Chosen:** N4, a geometric delta with a flat stroke end, in slate (`slate-900` and `slate-100` from the project palette).
